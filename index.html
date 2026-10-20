@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- العنوان الجديد للمتصفح -->
+    <title>محاضرات الفرقة الرابعة نظم المعلومات</title>
+    <!-- تحميل Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- تحميل خط Cairo من Google Fonts لتحسين عرض اللغة العربية -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* تطبيق الخط على كامل الصفحة */
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+        /* تعديل بسيط لضمان ظهور النافذة المنبثقة فوق كل شيء */
+        #modal {
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- حاوية الصفحة الرئيسية -->
+    <div class="container mx-auto max-w-7xl p-6 md:p-12">
+
+        <!-- عنوان الصفحة الجديد -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-blue-800">محاضرات الفرقة الرابعة - نظم المعلومات</h1>
+            <p class="text-lg text-gray-600 mt-2">قائمة المواد والمحاضرات الخاصة بها</p>
+        </header>
+
+        <!-- شبكة عرض المواد -->
+        <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- البطاقة 1: إدارة أفراد -->
+            <div class="bg-white rounded-lg shadow-xl p-6 transition duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <h2 class="text-2xl font-semibold text-blue-700 mb-4 pb-2 border-b border-gray-200">١. إدارة أفراد</h2>
+                <ul class="space-y-3">
+                    
+                    <!-- كتاب (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>الكتاب</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/11Yf2kqRoy1iDpQw-59uZrkbo1QO4pyBI/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=11Yf2kqRoy1iDpQw-59uZrkbo1QO4pyBI" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- المحاضرة الأولى (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الأولى</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1ardOupFYApUHDiVF-Wm8MYiVDnQ9Nnp2/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1ardOupFYApUHDiVF-Wm8MYiVDnQ9Nnp2" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- المحاضرة الثانية (تم التحديث) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الثانية</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1xMitVZIfUvnZ0TOXxZGjsckuvHyQ66Xk/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1xMitVZIfUvnZ0TOXxZGjsckuvHyQ66Xk" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- المحاضرة الثالثة (تم التحديث) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الثالثة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1D1uq8p9rGdCKRyWLszzRfu4QtL0MRchY/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1D1uq8p9rGdCKRyWLszzRfu4QtL0MRchY" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- المحاضرة الرابعة (تم التحديث) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الرابعة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1-CBL0mTAvDvcvjVQKEArmjQfS93cup5A/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1-CBL0mTAvDvcvjVQKEArmjQfS93cup5A" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- *** إضافة جديدة *** المحاضرة الخامسة (إدارة أفراد) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الخامسة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1Oy0CTxSwtQBbAxgywIk1dnBmlDMDnQO2/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1Oy0CTxSwtQBbAxgywIk1dnBmlDMDnQO2" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- Section 1 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 1</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1p_1mwP3Ro8esf7ve8SuE0eiEsMrRkH8u/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1p_1mwP3Ro8esf7ve8SuE0eiEsMrRkH8u" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- Section 2 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 2</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1VfJr6C63IcWYkCO8Fe2iWkZLno5vPypZ/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1VfJr6C63IcWYkCO8Fe2iWkZLno5vPypZ" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 3 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 3</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف وإصلاح الرابط المكسور *** -->
+                                <button data-url="https://drive.google.com/file/d/172JyIZHcdvjR-8FNvuM1ut7U11HZ6Skg/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=172JyIZHcdvjR-8FNvuM1ut7U11HZ6Skg" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 4 (إدارة أفراد) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 4</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1ptoeVx4lBm7vPwWZcXo-onuy49pFWS3D/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1ptoeVx4lBm7vPwWZcXo-onuy49pFWS3D" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- *** إضافة جديدة *** Section 5 (إدارة أفراد) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 5</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1iNTrOL9ZqSq65b_oleVmwmRYhtjrjlVe/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1iNTrOL9ZqSq65b_oleVmwmRYhtjrjlVe" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- البطاقة 2: دراسات محاسبية باللغه الانجليزيه -->
+            <div class="bg-white rounded-lg shadow-xl p-6 transition duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <h2 class="text-2xl font-semibold text-blue-700 mb-4 pb-2 border-b border-gray-200">٢. دراسات محاسبية باللغه الانجليزيه</h2>
+                <ul class="space-y-3">
+                    
+                    <!-- الكتاب (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>الكتاب</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1VBTw7MkRbyB8D6j_4gn2PijJPFuyZSpH/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1VBTw7MkRbyB8D6j_4gn2PijJPFuyZSpH" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- المحاضرة الأولى (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الأولى</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1MgizsZ1V3IVeCU2O9ihZSIMvIAAVF0cn/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1MgizsZ1V3IVeCU2O9ihZSIMvIAAVF0cn" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- المحاضرة الثانية (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الثانية</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/19r54f6oBjPv9os3fCqEnT22pB1cH3W--/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=19r54f6oBjPv9os3fCqEnT22pB1cH3W--" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- المحاضرة الثالثة (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الثالثة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1O793gwHEs0ypYhNXyZ6TQ_3gTw6mnvM_/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1O793gwHEs0ypYhNXyZ6TQ_3gTw6mnvM_" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- المحاضرة الرابعة (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الرابعة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1GNu1AqkiTkaXTQ7e5VqUFHXfB6IZWM7x/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1GNu1AqkiTkaXTQ7e5VqUFHXfB6IZWM7x" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- المحاضرة الخامسة (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الخامسة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1oJJcfl8rIhoXRYnPBKFxj35yMLrJd_fl/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1oJJcfl8rIhoXRYnPBKFxj35yMLrJd_fl" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- *** إضافة جديدة *** محاضره السادسة درسات محاسبية -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضره السادسة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1I6OqFlDPsC2sw83r0KFVc-IzSvJN_M22/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1I6OqFlDPsC2sw83r0KFVc-IzSvJN_M22" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- *** إضافة جديدة *** محاضره السابعة درسات محاسبية -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضره السابعة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1v7VTlQ2h9-vdsjT247bVUkolWb5-i4aQ/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1v7VTlQ2h9-vdsjT247bVUkolWb5-i4aQ" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- Section 1 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 1</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1aNU-O-3wb0UxZ-WKK36NujN_wPsyE0Ts/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1aNU-O-3wb0UxZ-WKK36NujN_wPsyE0Ts" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 2 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 2</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1JcaXVTkQH63B3FcGUovu623mvvwH50HA/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1JcaXVTkQH63B3FcGUovu623mvvwH50HA" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 3 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 3</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1AfzaSHrJbQ91-bHHxnzEkaSOCJpFM1Mk/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1AfzaSHrJbQ91-bHHxnzEkaSOCJpFM1Mk" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 4 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 4</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1Bh3lmJ7zzpwN50HWTzvs3o0dV83IJ84Y/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1Bh3lmJ7zzpwN50HWTzvs3o0dV83IJ84Y" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 5 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 5</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1Y6wGD1qML5tQBDMdNzdtcKApTga1N9XL/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1Y6wGD1qML5tQBDMdNzdtcKApTga1N9XL" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- *** إضافة جديدة *** Section 6 (دراسات محاسبية) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 6</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1YhGiCM7YuwMVle96J1kNPS9iwB0JLuoG/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1YhGiCM7YuwMVle96J1kNPS9iwB0JLuoG" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- *** إضافة جديدة *** Section 7 (دراسات محاسبية) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 7</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1axWlhl7QD4vnnblBV1ZfZ636k9-NasOg/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1axWlhl7QD4vnnblBV1ZfZ636k9-NasOg" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- البطاقة 3: نظم دعم القرار -->
+            <div class="bg-white rounded-lg shadow-xl p-6 transition duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <h2 class="text-2xl font-semibold text-blue-700 mb-4 pb-2 border-b border-gray-200">٣. نظم دعم القرار</h2>
+                <ul class="space-y-3">
+                    <!-- تم التحديث -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الأولى: مقدمة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1KjSyjoO3oaHz9ewtDjQYgDkfNbJ6kOTl/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1KjSyjoO3oaHz9ewtDjQYgDkfNbJ6kOTl" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- تم التحديث -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الثانية: أنواع النظم</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1N7-UVInG2ke71GVw7uPLls4zgVEDb9qQ/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1N7-UVInG2ke71GVw7uPLls4zgVEDb9qQ" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- *** إضافة جديدة *** نظم دعم القرار محاضره الثالثة -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الثالثة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1s64tQ7oIh5bfUyMRV1_gICplQzEdZEND/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1s64tQ7oIh5bfUyMRV1_gICplQzEdZEND" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- *** إضافة جديدة *** المحاضرة الرابعة (نظم دعم القرار) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الرابعة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1pfQULuz9s51cxhrgiUb3-n47VcVDf2-s/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1pfQULuz9s51cxhrgiUb3-n47VcVDf2-s" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- *** إضافة جديدة *** المحاضرة الخامسة (نظم دعم القرار) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الخامسة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1GTXRWHEdiVe7p7g3SW2QW-1nNDPjZcqm/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1GTXRWHEdiVe7p7g3SW2QW-1nNDPjZcqm" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- تم التحديث -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 1</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/173zN1HK_q8hKcShtnbMo0aeOKWbWV4-2/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=173zN1HK_q8hKcShtnbMo0aeOKWbWV4-2" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- Section 2 (نظم دعم القرار) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 2</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/186zR5dVC3m2rYtoajMsxIbOwz--mJtu8/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=186zR5dVC3m2rYtoajMsxIbOwz--mJtu8" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 3 (نظم دعم القرار) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 3</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/17czzVdPc2QCOdeJntNz4Ks6tiiYkgYvd/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=17czzVdPc2QCOdeJntNz4Ks6tiiYkgYvd" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 4 (نظم دعم القرار) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 4</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1sozhfSd9pkFv9xNIaIO2uf25p7JAVmrg/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1sozhfSd9pkFv9xNIaIO2uf25p7JAVmrg" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- البطاقة 4: محاسبه ادارية -->
+            <div class="bg-white rounded-lg shadow-xl p-6 transition duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <h2 class="text-2xl font-semibold text-blue-700 mb-4 pb-2 border-b border-gray-200">٤. محاسبه ادارية</h2>
+                <ul class="space-y-3">
+                    <!-- الكتاب (تم التحديث) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>الكتاب</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1y7lgVzQ_2-wCjMfei37URLHJLDOtcJ1R/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1y7lgVzQ_2-wCjMfei37URLHJLDOtcJ1R" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- المحاضرة الأولى (تم التحديث) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الأولى</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1s-yx5RHlje7H6C-ykHMAsz00k-ceF9Qq/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1s-yx5RHlje7H6C-ykHMAsz00k-ceF9Qq" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- تابع المحاضرة الأولى (تم التحديث) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>تابع المحاضرة الأولى</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1EluWngbwJc-FZODwwy1zJT8vqkiqkdS2/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1EluWngbwJc-FZODwwy1zJT8vqkiqkdS2" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- المحاضرة الثانية (تم التحديث) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الثانية</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1E2wt_JdMdvuKtm8_ToO8nyi_JliaONeG/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1E2wt_JdMdvuKtm8_ToO8nyi_JliaONeG" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- المحاضرة الثالثة (تم التحديث) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الثالثة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1ShOUMjjKdTOIKZPP3Bkz0NobOoeigDVi/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1ShOUMjjKdTOIKZPP3Bkz0NobOoeigDVi" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- المحاضرة الرابعة (تم التحديث) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الرابعة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1vIbil3qA0DtI9v4zDlrGemYW2UvgDatd/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1vIbil3qA0DtI9v4zDlrGemYW2UvgDatd" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- المحاضرة الخامسة (تم التحديث) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>المحاضرة الخامسة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1y9x4EwAS8nEbwevE6t7Ru7NsD3n6tJPO/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1y9x4EwAS8nEbwevE6t7Ru7NsD3n6tJPO" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- *** إضافة جديدة *** محاضره السادسة محاسبه ادارية -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>محاضره السادسة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1pvXnIZ5wVT71oNzbGbGm55X4tG4BDSgq/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1pvXnIZ5wVT71oNzbGbGm55X4tG4BDSgq" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- *** إضافة جديدة *** محاضره السابعة محاسبه ادارية -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>محاضره السابعة</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1v_Ru7E_1kzo5kGwOaTQqwuhIfgqWbbnz/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1v_Ru7E_1kzo5kGwOaTQqwuhIfgqWbbnz" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 1 (تم التحديث) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 1</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/19F_AahrJ4rZBZzLVZojrKq4DZm2RHkIb/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=19F_AahrJ4rZBZzLVZojrKq4DZm2RHkIb" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- Section 2 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 2</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/16MBrquZx_Wrrk_ESZ13Xe9lSj6qbEbZd/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=16MBrquZx_Wrrk_ESZ13Xe9lSj6qbEbZd" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- Section 3 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 3</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1Q-Y5Hx7aZyarkafIyMsU-rGS8h5vtbZH/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1Q-Y5Hx7aZyarkafIyMsU-rGS8h5vtbZH" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 4 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 4</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1eDUQKNYYlLMQeoOjXZIBWKo8340YT48h/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1eDUQKNYYlLMQeoOjXZIBWKo8340YT48h" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 5 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 5</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1zD8nUv_oea3Etq2ROa6SV-UpyrZXJxQ1/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1zD8nUv_oea3Etq2ROa6SV-UpyrZXJxQ1" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- *** إضافة جديدة *** Section 6 (محاسبه ادارية) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 6</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1QFbrhcdwOMDeUO9VulxwRSapxEHqzvI0/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1QFbrhcdwOMDeUO9VulxwRSapxEHqzvI0" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- *** إضافة جديدة *** Section 7 (محاسبه ادارية) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 7</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1Lt2Jr6bBRV0HKeF5feksP_Pb9bP_z1R8/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1Lt2Jr6bBRV0HKeF5feksP_Pb9bP_z1R8" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- *** إضافة جديدة *** Section 8 (محاسبه ادارية) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 8</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1cfRhT61hEtWOlUfaB7oi-eNPIQOwPp2W/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1cfRhT61hEtWOlUfaB7oi-eNPIQOwPp2W" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- البطاقة 5: شبكات وأمن المعلومات -->
+            <div class="bg-white rounded-lg shadow-xl p-6 transition duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <h2 class="text-2xl font-semibold text-blue-700 mb-4 pb-2 border-b border-gray-200">٥. شبكات وأمن المعلومات</h2>
+                <ul class="space-y-3">
+                    
+                    <!-- الكتاب (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>الكتاب</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1oWKNbbHIxKf9ezPBept_Q0dbGYpycy6f/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1oWKNbbHIxKf9ezPBept_Q0dbGYpycy6f" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 1 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 1</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1vdmu0inM5oqsQEGt3E6dLyr_BrbJhQwc/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1vdmu0inM5oqsQEGt3E6dLyr_BrbJhQwc" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- Section 2 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 2</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1v6FuCbz833ksNGwM99pFlD-8NnRtSdTe/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1v6FuCbz833ksNGwM99pFlD-8NnRtSdTe" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- Section 3 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 3</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/16JX3SvTLhahJLfsCr9G--WjFuHtT66Y4/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=16JX3SvTLhahJLfsCr9G--WjFuHtT66Y4" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Section 4 (مع تحميل) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 4</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <!-- *** تعديل: تم تغيير data-url إلى رابط جوجل درايف *** -->
+                                <button data-url="https://drive.google.com/file/d/1glmLipd7AOW51gkX2m5Zr0uQPxzvkhJQ/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1glmLipd7AOW51gkX2m5Zr0uQPxzvkhJQ" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- *** إضافة جديدة *** Section 5 (شبكات) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 5</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/1noGX9kmGoxsfF8hMwc1vygqDCgOI_gQs/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=1noGX9kmGoxsfF8hMwc1vygqDCgOI_gQs" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- *** إضافة جديدة *** Section 6 (شبكات) -->
+                    <li>
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 group">
+                            <span>Section 6</span>
+                            <div class="flex items-center space-x-3 space-x-reverse">
+                                <button data-url="https://drive.google.com/file/d/12e0P6qYle3DlrWNV-T9m9MK-1R04_4PK/preview" class="lecture-link cursor-pointer text-gray-500 group-hover:text-blue-600" title="عرض">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                </button>
+                                <a href="https://drive.google.com/uc?export=download&id=12e0P6qYle3DlrWNV-T9m9MK-1R04_4PK" download class="cursor-pointer text-gray-500 group-hover:text-green-600" title="تحميل">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </main>
+
+    </div>
+
+    <!-- ===== النافذة المنبثقة (Modal) ===== -->
+    <div id="modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50 hidden" style="direction: ltr;">
+        <div class="bg-white rounded-lg shadow-2xl w-full max-w-6xl h-[90vh] flex flex-col">
+            <!-- رأس النافذة مع زر الإغلاق -->
+            <div class="flex justify-between items-center p-4 border-b" style="direction: rtl;">
+                <h3 class="text-xl font-semibold text-gray-800">عرض المحاضرة</h3>
+                <!-- زر الإغلاق (الخروج) -->
+                <button id="closeModal" class="text-gray-500 hover:text-red-600 text-3xl font-bold leading-none">&times;</button>
+            </div>
+            <!-- Iframe لتحميل المحتوى -->
+            <div class="flex-grow p-1 overflow-hidden">
+                <iframe id="lectureFrame" src="" class="w-full h-full border-0 rounded-b-lg" allowfullscreen>
+                    جاري تحميل المحاضرة...
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <!-- ===== نهاية النافذة ===== -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            const modal = document.getElementById('modal');
+            const closeModalBtn = document.getElementById('closeModal');
+            const lectureFrame = document.getElementById('lectureFrame');
+            
+            // جلب جميع أزرار "العرض" (التي تفتح النافذة)
+            const lectureLinks = document.querySelectorAll('.lecture-link');
+
+            const openModal = (url) => {
+                // إضافة /preview إلى روابط جوجل درايف إذا لم تكن موجودة لضمان العرض المضمن
+                // بناءً على التعديلات الجديدة، الرابط يجب أن يحتوي بالفعل على /preview
+                // لكن هذا الكود آمن للتعامل مع كلتا الحالتين
+                let embedUrl = url;
+                if (embedUrl.includes("drive.google.com") && !embedUrl.includes("/preview")) {
+                    // تحويل الرابط العادي إلى رابط معاينة
+                    // مثال: https://drive.google.com/file/d/FILE_ID/view?usp=sharing
+                    // إلى: https://drive.google.com/file/d/FILE_ID/preview
+                    embedUrl = embedUrl.replace("/view", "/preview").split('?')[0];
+                }
+                
+                // التأكد من أن الرابط هو preview
+                if (embedUrl.includes("/view")) {
+                   embedUrl = embedUrl.replace("/view", "/preview");
+                }
+
+                lectureFrame.src = embedUrl; 
+                modal.classList.remove('hidden'); 
+            };
+
+            const closeModal = () => {
+                modal.classList.add('hidden'); 
+                lectureFrame.src = ''; // إيقاف تحميل المحتوى
+            };
+
+            // إضافة حدث النقر لجميع أزرار "العرض"
+            lectureLinks.forEach(link => {
+                link.addEventListener('click', (event) => {
+                    event.preventDefault(); 
+                    const url = link.dataset.url; 
+                    if (url) {
+                        openModal(url);
+                    }
+                });
+            });
+
+            closeModalBtn.addEventListener('click', closeModal);
+
+            // إغلاق النافذة عند النقر خارجها
+            modal.addEventListener('click', (event) => {
+                if (event.target === modal) {
+                    closeModal();
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+
